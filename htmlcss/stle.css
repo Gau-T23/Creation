@@ -1,0 +1,381 @@
+*{
+  padding: 0;
+  margin: 0px;
+  font-family: 'Trirong', sans-serif;
+  box-sizing: border-box;
+  
+}
+#main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(wave-background-abstract-gradient-design_483537-3688.avif);
+  background-size: cover;
+  background-position:left;
+  
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-top: 7px;
+  padding-right: 2%;
+  
+}
+#logo{
+  color: antiquewhite;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+span{
+  color: rgb(196, 33, 33);
+  font-family: 'Audiowide', sans-serif ;
+  text-align: unset;
+  padding-right: 20px;
+}
+
+nav ul li{
+ list-style-type: none ;
+ display: inline-block;
+ padding: -5px -5px 5px;
+  font-size: 17px;
+  margin-left: 50px;
+  margin-top:10px;
+}
+nav ul li a{
+  color: white;
+  font-weight:bolder;
+  text-transform: capitalize;
+  text-decoration: underline;
+  padding-top: 10px 6px;
+  margin-top: -10%;
+}
+nav ul li a:hover{
+  color: rgb(228, 174, 36);
+  transition: .3s;
+}
+#content{
+  font-family: 'Trirong', sans-serif;
+  position:absolute;
+  top:47%;
+  left: 10%;
+  transform: translateY(-40%);
+  text-align: left;
+  
+}
+h1{
+  color: darkgoldenrod;
+  font-size: 60px;
+  margin:140px 10px 10px;
+  text-shadow: 3px 2px rgba(172, 69, 236, 0.8);
+  
+}
+
+h3{
+  color:white;
+  font-size: 35px;
+  margin-top: -30px;
+
+}
+#content img{
+  margin-top: 6%;
+  margin-left: 110%;
+  margin-right: -40%;
+  bottom: 10%;
+
+}
+#content img:hover{
+  transition: .3s;
+  transform:scale(1.2);
+}
+#newslatter form{
+  width: 420px;
+  max-width:100% ;
+  margin-bottom: -50%;
+  position:relative;
+
+} 
+#newslatter form input:first-child{
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  padding: 40px 180px 20px 15px ;
+  width: 100%;
+  height: 40%;
+  border: 3px solid rgb(72, 253, 35);
+  border-radius: 20px;
+  
+  text-align: left;
+  font-size: 20px;
+}
+#newslatter form input:last-child{
+  display: inline-block;
+  padding: 20px 20px 10px;
+  border-radius: 20px;
+  border-color:  rgb(72, 253, 35);
+ position: relative;
+ left: 66%;
+ bottom: -15px;
+ top: 54px;
+ background-color: crimson; 
+ color: white;
+ text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+} 
+#newslatter form input:last-child:hover{
+  transition: .3s;
+  background: black;
+  border-radius: 23px;
+  border-color: #ae0e0e;
+  color: bisque;
+}
+#About{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: black;
+  background-image: url(wave-background-abstract-gradient-design_483537-3688.avif);
+  background-size: cover;
+}
+#About img{
+  height: fit-content;
+  width: 400px;
+  border-radius: 20px;
+ 
+}
+#About-text{
+  width: 600px;
+  height:auto;
+}
+#main1{
+justify-content: space-around;
+display: flex;
+width: 1140px;
+max-width: 95%;
+align-items: center;
+text-align: center;
+margin: 0 auto;
+font-family: 'Franklin Gothic Medium', sans-serif;
+}
+#About-text h2{
+  color: antiquewhite;
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+
+}
+#About-text h2:hover{
+  color: rgb(253, 130, 7);
+  transition: .3s;
+  cursor: all-scroll;
+}
+#About-text h4{
+  color: aquamarine;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  
+}
+#About-text p{
+  color: azure;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height:22px;
+  margin-bottom: 42px;
+}
+#skills{
+  background-color: black;
+  width: 100%;
+  padding: 120px 0px;
+  background-image: url(wave-background-abstract-gradient-design_483537-3688.avif);
+  background-size: cover;
+}
+
+#title1{
+  color: aliceblue;
+  font-size: 60px;
+  margin: 20px auto;
+  width: 1130px;
+  text-align: center;
+  
+}
+#title1:hover{
+  color: rgb(64, 64, 248);
+  transition: .3s;
+  cursor: all-scroll;
+ 
+}
+#box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  
+}
+#cards{
+  height: 380px;
+  width: 350px;
+  padding: 25px 35px;
+  background: #806f80;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: .3s;
+  
+}
+#cards:hover{
+  background-image: url(abstract-plexus-blue-geometrical-shapes-connection-ai-generated-image_511042-596.avif);
+  border: 5px solid rgb(209, 22, 22);
+  cursor: pointer;
+  
+}
+#cards i{
+  font-size: 45px;
+  display: block;
+  text-align: center;
+  margin: 30px 0px;
+  color: coral;
+
+}
+h4{
+  color: rgb(248, 248, 7);
+  font-size: 30px;
+  text-align: center;
+}
+#pre p{
+  color: rgb(247, 241, 241);
+  font-size: 15px;
+  text-align: center;
+  margin: 30px 0px;
+  line-height: 20px;
+}
+#project{
+  width: 100%;
+  height: 900px;
+  padding: 100px 0px;
+  background-color: black;
+  background-image: url(wave-background-abstract-gradient-design_483537-3688.avif);
+  background-size: cover;
+}
+#title2{
+  color: aliceblue;
+  font-size: 60px;
+  margin: 20px auto;
+  width: 1130px;
+  text-align: center;
+}
+
+#title2 h3{
+  color: rgb(237, 237, 202);
+  font-size: 40px;
+  text-align: center;
+
+}
+#title2 h3:hover{
+  color: rgb(228, 228, 56);
+  transition: .3s;
+  cursor: all-scroll;
+}
+
+#project a{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(240, 107, 252);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+#project a:hover{
+  transition: .3s;
+  background-color: transparent;
+  border-radius: 3px solid #ae0e0e;
+  cursor: pointer;
+
+}
+#contact{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(0, 63, 134);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ flex-direction: column; 
+}
+#contact h2{
+  color: antiquewhite;
+ text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+#social{
+ display: flex;
+
+}
+#social a{
+  width: 50px;
+  height: 50px;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  background-color: crimson;
+  border-radius: 40%;
+  margin: 32px 20px;
+  color: aliceblue;
+  size: 20px;
+}
+#social a:hover{
+  transform: scale(1.4);
+  transition: .3s;
+  background-color: transparent;
+  border-radius: 3px solid #ae0e0e;
+  cursor: pointer;
+}
+#social h5{
+  font-size: 20px;
+  text-align: right;
+  text-decoration: none;
+  justify-content: space-around;
+  color: goldenrod;
+  margin-top: 40px;
+  margin-left:10px;
+}
+footer{
+  width: 100%;
+  height:30px;
+  position: relative;
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  
+}
+footer p{
+  text-align: center;
+  font-size:17px ;
+  font-weight: bold;
+  line-height: 28px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
